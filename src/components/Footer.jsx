@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css'
 import { Link } from 'react-router-dom';
+import { m } from 'framer-motion';
 
 export default function Footer() {
   return (
@@ -23,3 +24,5 @@ export default function Footer() {
     </div>
   )
 }
+
+module.exports = Footer;
